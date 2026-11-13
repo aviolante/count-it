@@ -4,7 +4,7 @@
    with the app encrypted inside, so nothing readable is stored. Opening the app always uses the saved copy at
    once, then fetches the latest in the background for next time, so a slow connection never holds you up. */
 const CACHE = 'countit-shell-v1';
-const SHELL = ['./', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
+const SHELL = ['./', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/touch-icon-1024.png'];
 const ROOT = new URL('./', self.location.href).pathname;
 
 self.addEventListener('install', (e) => {
